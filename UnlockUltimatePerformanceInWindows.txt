@@ -1,0 +1,5 @@
+powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61
+
+powercfg /setactive 8cac6dbb-8153-4bf1-90f6-86a5f0d6ac5c
+
+powercfg /list
