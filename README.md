@@ -1,12 +1,12 @@
 <img width="1285" height="678" alt="UnlockingUltimatePowerMode" src="https://github.com/user-attachments/assets/1af802fc-c616-48b6-8988-fa1950ff9371" />
 
-The command powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61 creates a duplicate of the hidden "Ultimate Performance" power plan in Windows.  This plan is designed to maximize performance by disabling power-saving features, often used on high-end desktops or workstations
+The command `powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61` creates a duplicate of the hidden "Ultimate Performance" power plan in Windows.  This plan is designed to maximize performance by disabling power-saving features, often used on high-end desktops or workstations
 
 **What the Command Does**
-- powercfg: A built-in Windows utility to manage power plans.
-- duplicatescheme: Generates a new copy of an existing power plan using its GUID.
-- setactive: This switches your system to the duplicated Ultimate Performance plan.
-- GUID e9a42b02-d5df-448d-aa00-03f14749eb61: This specific identifier corresponds to the Ultimate Performance plan introduced in Windows 10 Pro for Workstations and available in Windows 11.
+- `powercfg`: A built-in Windows utility to manage power plans.
+- `duplicatescheme`: Generates a new copy of an existing power plan using its GUID.
+- `setactive`: This switches your system to the duplicated Ultimate Performance plan.
+- `GUID e9a42b02-d5df-448d-aa00-03f14749eb61`: This specific identifier corresponds to the Ultimate Performance plan introduced in Windows 10 Pro for Workstations and available in Windows 11.
 
 Running this command adds the Ultimate Performance plan to your list of available power plans, even if it’s hidden by default.
 
